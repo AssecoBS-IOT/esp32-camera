@@ -60,6 +60,7 @@ static const DRAM_ATTR uint16_t sensor_default_regs[][2] = {
     {0x3634, 0x40},//!!IMPORTANT
 
     //AEC/AGC
+    {0x3a01, 0xf0},
     {0x3a02, 0x03},
     {0x3a03, 0xd8},
     {0x3a08, 0x01},
